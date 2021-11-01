@@ -1,41 +1,41 @@
 #1. Import the NUMPY package under the name np.
-import numpy as np
+
 
 
 #2. Print the NUMPY version and the configuration.
-print(np.version.version)
+
 
 
 #3. Generate a 2x3x5 3-dimensional array with random values. Assign the array to variable "a"
 # Challenge: there are at least three easy ways that use numpy to generate random arrays. How many ways can you find?
-a= np.random.random((2,3,4))
+
 
 
 #4. Print a.
-print(a)
 
 
-#5. Create a 4x2x3 3-dimensional array with all values equaling 1.
+
+#5. Create a 5x2x3 3-dimensional array with all values equaling 1.
 #Assign the array to variable "b"
-b= np.full((4,2,3),1)
+
 
 
 #6. Print b.
-print(b)
+
 
 
 #7. Do a and b have the same size? How do you prove that in Python code?
-try: print(a + b)
-except: print("no se puede")
+
+
 
 
 #8. Are you able to add a and b? Why or why not?
 
-"""¿añadir a y b a donde? D: """
+
 
 #9. Transpose b so that it has the same structure of a (i.e. become a 2x3x5 array). Assign the transposed array to varialbe "c".
 
-c= b.reshape(2,3,4)
+
 
 #10. Try to add a and c. Now it should work. Assign the sum to varialbe "d". But why does it work now?
 
@@ -48,17 +48,15 @@ c= b.reshape(2,3,4)
 
 #12. Multiply a and c. Assign the result to e.
 
-e = a * c
+
 
 #13. Does e equal to a? Why or why not?
 
-print(e)
-print("-----")
-print(a)
-"""son lo mismo, porque se multiplico por un array que era igual y sus digitos eran 1"""
+
+
 
 #14. Identify the max, min, and mean values in d. Assign those values to variables "d_max", "d_min", and "d_mean"
-d_max= for x in 
+
 
 
 
